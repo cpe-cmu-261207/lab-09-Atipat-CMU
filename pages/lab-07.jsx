@@ -1,5 +1,10 @@
-import React from "react";
+import Todolist from "../components/Todolist";
+import MainLayout from "../layouts/MainLayout";
 
-export default function Lab07() {
-  return <div></div>;
+export default function lab07() {
+  return (
+    <MainLayout page="Lab-07">
+      <Todolist />
+    </MainLayout>
+  );
 }
